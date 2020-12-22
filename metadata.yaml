@@ -15,5 +15,5 @@
 homepage: "https://reelevant.com"
 documentation: "http://help.reelevant.com"
 versions:
-  - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
+  - sha: c8c053cd32073e9968149c3c545bdd24b6f821e0
     changeNotes: Initial Version
