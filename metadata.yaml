@@ -17,3 +17,5 @@ documentation: "http://help.reelevant.com"
 versions:
   - sha: c8c053cd32073e9968149c3c545bdd24b6f821e0
     changeNotes: Initial Version
+  - sha: 62254e7e4e4d589608826e588c56b94203f8ca0d
+    changeNotes: Update script endpoint
