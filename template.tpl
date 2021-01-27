@@ -426,7 +426,6 @@ function objectAssign (obj1, obj2, obj3, obj4) {
 
 // Global config
 const eventName = data.eventName;
-const scriptUrl = 'https://storage.googleapis.com/rlvt-track-stg/reelevant-v2.js';
 const labels = transformLabels(data.labels || []);
 
 function onScriptLoaded () {
@@ -452,7 +451,7 @@ function main () {
         queue: queue || [],
         globalLabels: transformLabels(data.globalLabels || [])
       }, true);
-      injectScript(scriptUrl, onScriptLoaded, onScriptFailure);
+      injectScript('https://scripts-repo.production.reelevant.dev/rlvt?company=' + companyId + '&datasource=' + datasourceId, onScriptLoaded, onScriptFailure);
       return;
   }
   log('Reelevant, triggering:', eventName);
