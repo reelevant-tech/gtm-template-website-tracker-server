@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://reelevant.com"
-documentation: "http://help.reelevant.com"
+documentation: "https://formation.reelevant.com/kb/guide/en/google-tag-manager-nSyndD3bGi"
 versions:
   - sha: 62254e7e4e4d589608826e588c56b94203f8ca0d
     changeNotes: Update script endpoint
