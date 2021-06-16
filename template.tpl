@@ -44,7 +44,7 @@ ___TEMPLATE_PARAMETERS___
         "selectItems": [
           {
             "value": "boot",
-            "displayValue": "Boot"
+            "displayValue": "Startup"
           },
           {
             "value": "identify",
