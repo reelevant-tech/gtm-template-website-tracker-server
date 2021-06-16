@@ -15,6 +15,8 @@
 homepage: "https://reelevant.com"
 documentation: "https://formation.reelevant.com/kb/guide/en/google-tag-manager-nSyndD3bGi"
 versions:
+  - sha: b40efa0848db31666dbafc18abb0078807c57e9c
+    changeNotes: Updated event name
   - sha: 62254e7e4e4d589608826e588c56b94203f8ca0d
     changeNotes: Update script endpoint
   - sha: c8c053cd32073e9968149c3c545bdd24b6f821e0
