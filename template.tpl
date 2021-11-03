@@ -708,7 +708,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://storage.googleapis.com/rlvt-track-stg/reelevant-v2.js"
+                "string": "https://scripts-repo.production.reelevant.dev/*"
               }
             ]
           }
