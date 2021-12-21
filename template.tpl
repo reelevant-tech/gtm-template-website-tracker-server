@@ -451,7 +451,7 @@ function main () {
         queue: queue || [],
         globalLabels: transformLabels(data.globalLabels || [])
       }, true);
-      injectScript('https://scripts-repo.production.reelevant.dev/rlvt?company=' + companyId + '&datasource=' + datasourceId, onScriptLoaded, onScriptFailure);
+      injectScript('https://scripts-repo.reelevant.com/rlvt?company=' + companyId + '&datasource=' + datasourceId, onScriptLoaded, onScriptFailure);
       return;
   }
   log('Reelevant, triggering:', eventName);
