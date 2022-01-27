@@ -708,7 +708,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://scripts-repo.production.reelevant.dev/*"
+                "string": "https://scripts-repo.reelevant.com/*"
               }
             ]
           }
