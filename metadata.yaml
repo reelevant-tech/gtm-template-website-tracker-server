@@ -15,6 +15,8 @@
 homepage: "https://reelevant.com"
 documentation: "https://formation.reelevant.com/kb/guide/en/google-tag-manager-nSyndD3bGi"
 versions:
+  - sha: fc5edd7c7a3f6bc7e478de1f873614bde91b984f
+    changeNotes: Fix permissions with new URL
   - sha: d96d0a577527e81b16bfa274b4e2afe6d693cf07
     changeNotes: Update Reelevant URL
   - sha: 48062272ec954661e85c2190c070bdadc350c317
