@@ -67,6 +67,18 @@ ___TEMPLATE_PARAMETERS___
             "displayValue": "Purchase items"
           },
           {
+            "value": "category_view",
+            "displayValue": "Category page view"
+          },
+          {
+            "value": "brand_view",
+            "displayValue": "Brand page view"
+          },
+          {
+            "value": "product_hover",
+            "displayValue": "Product hovered"
+          },
+          {
             "value": "custom",
             "displayValue": "Custom event"
           }
@@ -134,6 +146,18 @@ ___TEMPLATE_PARAMETERS___
           },
           {
             "type": "LABEL",
+            "name": "productHoverInfo",
+            "displayName": "This event can be used to track viewed product that are hovered",
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "product_hover",
+                "type": "EQUALS"
+              }
+            ]
+          },
+          {
+            "type": "LABEL",
             "name": "addCartInfo",
             "displayName": "This event can be used to track add to cart actions",
             "enablingConditions": [
@@ -152,6 +176,30 @@ ___TEMPLATE_PARAMETERS___
               {
                 "paramName": "eventName",
                 "paramValue": "purchase",
+                "type": "EQUALS"
+              }
+            ]
+          },
+          {
+            "type": "LABEL",
+            "name": "categoryViewInfo",
+            "displayName": "This event can be used to track viewed category pages",
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "category_view",
+                "type": "EQUALS"
+              }
+            ]
+          },
+          {
+            "type": "LABEL",
+            "name": "brandViewInfo",
+            "displayName": "This event can be used to track viewed brand pages",
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "brand_view",
                 "type": "EQUALS"
               }
             ]
@@ -246,6 +294,50 @@ ___TEMPLATE_PARAMETERS___
           },
           {
             "type": "TEXT",
+            "name": "brandNames",
+            "displayName": "Brand name",
+            "simpleValueType": true,
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "brand_view",
+                "type": "EQUALS"
+              }
+            ],
+            "textAsList": true,
+            "valueValidators": [
+              {
+                "type": "TABLE_ROW_COUNT",
+                "args": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "categoryNames",
+            "displayName": "Category name",
+            "simpleValueType": true,
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "category_view",
+                "type": "EQUALS"
+              }
+            ],
+            "textAsList": true,
+            "valueValidators": [
+              {
+                "type": "TABLE_ROW_COUNT",
+                "args": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
             "name": "productIds",
             "displayName": "Product\u0027s ids",
             "simpleValueType": true,
@@ -263,6 +355,11 @@ ___TEMPLATE_PARAMETERS___
               {
                 "paramName": "eventName",
                 "paramValue": "purchase",
+                "type": "EQUALS"
+              },
+              {
+                "paramName": "eventName",
+                "paramValue": "product_hover",
                 "type": "EQUALS"
               }
             ],
@@ -380,6 +477,21 @@ ___TEMPLATE_PARAMETERS___
                 "paramName": "eventName",
                 "paramValue": "page_view",
                 "type": "EQUALS"
+              },
+              {
+                "paramName": "eventName",
+                "paramValue": "category_view",
+                "type": "EQUALS"
+              },
+              {
+                "paramName": "eventName",
+                "paramValue": "brand_view",
+                "type": "EQUALS"
+              },
+              {
+                "paramName": "eventName",
+                "paramValue": "product_hover",
+                "type": "EQUALS"
               }
             ]
           }
@@ -483,6 +595,24 @@ function main () {
     case 'product_page': {
       pushEvent('product_page', {
         ids: data.productIds
+      });
+      break;
+    }
+    case 'product_hover': {
+      pushEvent('product_hover', {
+        ids: data.productIds
+      });
+      break;
+    }
+    case 'category_view': {
+      pushEvent('brand_view', {
+        ids: data.categoryNames
+      });
+      break;
+    }
+    case 'brand_view': {
+      pushEvent('brand_view', {
+        ids: data.brandNames
       });
       break;
     }
