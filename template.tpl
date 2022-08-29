@@ -14,7 +14,9 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Reelevant Website Tracking Tag",
-  "categories": ["PERSONALIZATION"],
+  "categories": [
+    "PERSONALIZATION"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -429,6 +431,19 @@ ___TEMPLATE_PARAMETERS___
             ]
           },
           {
+            "type": "TEXT",
+            "name": "transId",
+            "displayName": "Transaction ID (optional)",
+            "simpleValueType": true,
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "purchase",
+                "type": "EQUALS"
+              }
+            ]
+          },
+          {
             "type": "PARAM_TABLE",
             "name": "labels",
             "displayName": "Additionals labels",
@@ -625,7 +640,8 @@ function main () {
     case 'purchase': {
       pushEvent('purchase', {
         ids: data.productIds,
-        value: data.totalPrice
+        value: data.totalPrice,
+        transId: data.transId
       });
       break;
     }
