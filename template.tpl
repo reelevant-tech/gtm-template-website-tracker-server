@@ -620,7 +620,7 @@ function main () {
       break;
     }
     case 'category_view': {
-      pushEvent('brand_view', {
+      pushEvent('category_view', {
         ids: data.categoryNames
       });
       break;
