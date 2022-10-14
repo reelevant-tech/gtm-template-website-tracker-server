@@ -15,6 +15,8 @@
 homepage: "https://reelevant.com"
 documentation: "https://formation.reelevant.com/kb/guide/en/google-tag-manager-nSyndD3bGi"
 versions:
+  - sha: 6b67c2ab24a0a9324ca106401845862eafb1bb3d
+    changeNotes: Make transaction id for purchase mandatory
   - sha: 7dc9756a279e7af637074717368af02b719352fa
     changeNotes: Fix category view event name
   - sha: e8308a3fac2aa314d847268a8dc7c75bb11fccca
