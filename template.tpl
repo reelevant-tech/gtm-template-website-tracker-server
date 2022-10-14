@@ -433,13 +433,18 @@ ___TEMPLATE_PARAMETERS___
           {
             "type": "TEXT",
             "name": "transId",
-            "displayName": "Transaction ID (optional)",
+            "displayName": "Transaction ID",
             "simpleValueType": true,
             "enablingConditions": [
               {
                 "paramName": "eventName",
                 "paramValue": "purchase",
                 "type": "EQUALS"
+              }
+            ],
+            "valueValidators": [
+              {
+                "type": "NON_EMPTY"
               }
             ]
           },
