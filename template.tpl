@@ -69,6 +69,10 @@ ___TEMPLATE_PARAMETERS___
             "displayValue": "Purchase items"
           },
           {
+            "value": "purchase_references",
+            "displayValue": "Purchase items (with references)"
+          },
+          {
             "value": "category_view",
             "displayValue": "Category page view"
           },
@@ -173,11 +177,23 @@ ___TEMPLATE_PARAMETERS___
           {
             "type": "LABEL",
             "name": "purchaseInfo",
-            "displayName": "This event can be used to track purchases of one or multiple items",
+            "displayName": "This event can be used to track purchases of one or multiple items (with product ids)",
             "enablingConditions": [
               {
                 "paramName": "eventName",
                 "paramValue": "purchase",
+                "type": "EQUALS"
+              }
+            ]
+          },
+          {
+            "type": "LABEL",
+            "name": "purchaseReferencesInfo",
+            "displayName": "This event can be used to track purchases of one or multiple items (with reference ids)",
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "purchase_references",
                 "type": "EQUALS"
               }
             ]
@@ -377,6 +393,28 @@ ___TEMPLATE_PARAMETERS___
           },
           {
             "type": "TEXT",
+            "name": "referenceIds",
+            "displayName": "Product\u0027s reference ids",
+            "simpleValueType": true,
+            "enablingConditions": [
+              {
+                "paramName": "eventName",
+                "paramValue": "purchase_references",
+                "type": "EQUALS"
+              }
+            ],
+            "textAsList": true,
+            "valueValidators": [
+              {
+                "type": "TABLE_ROW_COUNT",
+                "args": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
             "name": "totalPrice",
             "displayName": "Total price",
             "simpleValueType": true,
@@ -439,6 +477,11 @@ ___TEMPLATE_PARAMETERS___
               {
                 "paramName": "eventName",
                 "paramValue": "purchase",
+                "type": "EQUALS"
+              },
+              {
+                "paramName": "eventName",
+                "paramValue": "purchase_references",
                 "type": "EQUALS"
               }
             ],
@@ -646,6 +689,13 @@ function main () {
       pushEvent('purchase', {
         ids: data.productIds,
         value: data.totalPrice,
+        transId: data.transId
+      });
+      break;
+    }
+    case 'purchase_references': {
+      pushEvent('purchase_references', {
+        ids: data.referenceIds,
         transId: data.transId
       });
       break;
