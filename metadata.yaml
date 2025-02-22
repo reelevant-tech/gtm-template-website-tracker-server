@@ -15,27 +15,5 @@
 homepage: "https://reelevant.com"
 documentation: "https://formation.reelevant.com/kb/guide/en/google-tag-manager-nSyndD3bGi"
 versions:
-  - sha: 5185a1b07ea979c532820cabd581dfe96bf73409
-    changeNotes: Add purchase_references event
-  - sha: 6b67c2ab24a0a9324ca106401845862eafb1bb3d
-    changeNotes: Make transaction id for purchase mandatory
-  - sha: 7dc9756a279e7af637074717368af02b719352fa
-    changeNotes: Fix category view event name
-  - sha: e8308a3fac2aa314d847268a8dc7c75bb11fccca
-    changeNotes: Add transaction id to purchase
-  - sha: 98cab31e393bae4745288235f47915637bc33135
-    changeNotes: rename displayname
-  - sha: 61f37a5ce8700e27df1ac1fd00eb4115bae6d18c
-    changeNotes: add `product_hover`, `category_view` and `brand_view` event
-  - sha: fc5edd7c7a3f6bc7e478de1f873614bde91b984f
-    changeNotes: Fix permissions with new URL
-  - sha: d96d0a577527e81b16bfa274b4e2afe6d693cf07
-    changeNotes: Update Reelevant URL
-  - sha: 48062272ec954661e85c2190c070bdadc350c317
-    changeNotes: Fix permissions
-  - sha: b40efa0848db31666dbafc18abb0078807c57e9c
-    changeNotes: Updated event name
-  - sha: 62254e7e4e4d589608826e588c56b94203f8ca0d
-    changeNotes: Update script endpoint
-  - sha: c8c053cd32073e9968149c3c545bdd24b6f821e0
+  - sha: 04cef633d14d8848d0899def802f9b4775cb68c5
     changeNotes: Initial Version
