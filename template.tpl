@@ -13,18 +13,18 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Reelevant Website Tracking Tag",
+  "displayName": "Reelevant Server Side Tracking",
   "categories": [
     "PERSONALIZATION"
   ],
   "brand": {
     "id": "brand_dummy",
-    "displayName": "",
+    "displayName": "Reelevant",
     "thumbnail": "data:image/png;base64,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\u003d"
   },
-  "description": "Track user\u0027s behavior and use it in Reelevant.",
+  "description": "Track user\u0027s behavior from server side and use it in Reelevant.",
   "containerContexts": [
-    "WEB"
+    "SERVER"
   ]
 }
 
@@ -44,18 +44,6 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "Event",
         "macrosInSelect": false,
         "selectItems": [
-          {
-            "value": "boot",
-            "displayValue": "Startup"
-          },
-          {
-            "value": "identify",
-            "displayValue": "User identification"
-          },
-          {
-            "value": "page_view",
-            "displayValue": "Page view"
-          },
           {
             "value": "product_page",
             "displayValue": "Product page view"
@@ -102,42 +90,6 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "",
         "groupStyle": "NO_ZIPPY",
         "subParams": [
-          {
-            "type": "LABEL",
-            "name": "bootInfo",
-            "displayName": "This event must be triggered when the page load to init tracking",
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "boot",
-                "type": "EQUALS"
-              }
-            ]
-          },
-          {
-            "type": "LABEL",
-            "name": "identifyInfo",
-            "displayName": "This event must be triggered when a user log-in to be able to identify him in Reelevant",
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "identify",
-                "type": "EQUALS"
-              }
-            ]
-          },
-          {
-            "type": "LABEL",
-            "name": "pageViewInfo",
-            "displayName": "This event can be used to track viewed pages",
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "page_view",
-                "type": "EQUALS"
-              }
-            ]
-          },
           {
             "type": "LABEL",
             "name": "productPageInfo",
@@ -244,24 +196,6 @@ ___TEMPLATE_PARAMETERS___
         "subParams": [
           {
             "type": "TEXT",
-            "name": "companyId",
-            "displayName": "Company\u0027s ID",
-            "simpleValueType": true,
-            "valueValidators": [
-              {
-                "type": "NON_EMPTY"
-              }
-            ],
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "boot",
-                "type": "EQUALS"
-              }
-            ]
-          },
-          {
-            "type": "TEXT",
             "name": "datasourceId",
             "displayName": "Datasource\u0027s ID",
             "simpleValueType": true,
@@ -269,44 +203,16 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "NON_EMPTY"
               }
-            ],
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "boot",
-                "type": "EQUALS"
-              }
             ]
           },
           {
-            "type": "PARAM_TABLE",
-            "name": "globalLabels",
-            "displayName": "Labels",
-            "paramTableColumns": [
+            "type": "TEXT",
+            "name": "companyId",
+            "displayName": "Company\u0027s ID",
+            "simpleValueType": true,
+            "valueValidators": [
               {
-                "param": {
-                  "type": "TEXT",
-                  "name": "name",
-                  "displayName": "Name",
-                  "simpleValueType": true
-                },
-                "isUnique": true
-              },
-              {
-                "param": {
-                  "type": "TEXT",
-                  "name": "value",
-                  "displayName": "Value",
-                  "simpleValueType": true
-                },
-                "isUnique": false
-              }
-            ],
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "boot",
-                "type": "EQUALS"
+                "type": "NON_EMPTY"
               }
             ]
           },
@@ -437,13 +343,6 @@ ___TEMPLATE_PARAMETERS___
             "name": "userId",
             "displayName": "User\u0027s id",
             "simpleValueType": true,
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "identify",
-                "type": "EQUALS"
-              }
-            ],
             "valueValidators": [
               {
                 "type": "NON_EMPTY"
@@ -514,48 +413,6 @@ ___TEMPLATE_PARAMETERS___
                 },
                 "isUnique": false
               }
-            ],
-            "enablingConditions": [
-              {
-                "paramName": "eventName",
-                "paramValue": "product_page",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "add_cart",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "purchase",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "custom",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "page_view",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "category_view",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "brand_view",
-                "type": "EQUALS"
-              },
-              {
-                "paramName": "eventName",
-                "paramValue": "product_hover",
-                "type": "EQUALS"
-              }
             ]
           }
         ]
@@ -565,167 +422,133 @@ ___TEMPLATE_PARAMETERS___
 ]
 
 
-___SANDBOXED_JS_FOR_WEB_TEMPLATE___
+___SANDBOXED_JS_FOR_SERVER___
 
-const log = require('logToConsole');
-const injectScript = require('injectScript');
-const setInWindow = require('setInWindow');
-const copyFromWindow = require('copyFromWindow');
-const callInWindow = require('callInWindow');
+// Server-side specific requirements
+const getAllEventData = require('getAllEventData');
+const sendHttpRequest = require('sendHttpRequest');
+const getRequestHeader = require('getRequestHeader');
+const setCookie = require('setCookie');
+const getCookieValues = require('getCookieValues');
+const generateRandom = require('generateRandom');
+const logToConsole = require('logToConsole');
+const JSON = require('JSON');
 
-// Utils
-function transformLabels (rawLabels) {
-  return rawLabels.reduce((labels, label) => {
-    labels[label.name] = label.value;
-    return labels;
-  }, {});
-}
-function objectAssign (obj1, obj2, obj3, obj4) {
-  const result = {};
-  for (const key in obj1) {
-    result[key] = obj1[key];
-  }
-  for (const key in obj2) {
-    result[key] = obj2[key];
-  }
-  if (!obj3) obj3 = {};
-  for (const key in obj3) {
-    result[key] = obj3[key];
-  }
-  if (!obj4) obj4 = {};
-  for (const key in obj4) {
-    result[key] = obj4[key];
+// Helper function to generate random string
+const generateRandomId = () => {
+  const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789';
+  let result = '';
+  for (let i = 0; i < 32; i++) {
+    result += chars[generateRandom(0, chars.length - 1)];
   }
   return result;
+};
+
+const parseIds = (value) => {
+  if (value.concat) return value;
+  return [value];
+};
+
+const eventData = getAllEventData();
+logToConsole('Debug:', { event: eventData, data: data });
+
+// Get or generate client ID
+const tmpId = getCookieValues('rlvt_tmpId')[0] || generateRandomId();
+
+// Set client ID cookie if not exists
+if (!getCookieValues('rlvt_tmpId')[0]) {
+  setCookie('rlvt_tmpId', tmpId, {
+    domain: 'auto',
+    path: '/',
+    secure: true,
+    httpOnly: true,
+    'max-age': 15768000 // 3 months
+  });
 }
 
-// Global config
-const eventName = data.eventName;
-const labels = transformLabels(data.labels || []);
+// Transform the event data based on event type
+let payload = {
+  name: data.customEventName || data.eventName,
+  url: eventData.page_location,
+  data: {},
+  clientId: data.userId,
+  key: data.companyId,
+  tmpId: tmpId,
+  v: 1,
+  eventId: generateRandomId()
+};
 
-function onScriptLoaded () {
-  log('Reelevant script injected!');
-  data.gtmOnSuccess();
-}
-function onScriptFailure () {
-  log('Injecting reelevant script failed');
-  data.gtmOnFailure();
+// Add event specific data
+switch(data.eventName) {
+  case 'product_page':
+    payload.data.ids = parseIds(data.productIds);
+    break;
+  case 'purchase':
+    payload.data.ids = parseIds(data.productIds);
+    payload.data.value = data.totalPrice;
+    payload.data.transId = data.transId;
+    break;
+  case 'category_view':
+    payload.data.ids = parseIds(data.categoryNames);
+    break;
+  case 'brand_view':
+    payload.data.ids = parseIds(data.brandNames);
+    break;
+  case 'add_cart':
+    payload.data.ids = parseIds(data.productIds);
+    break;
+  case 'purchase_references':
+    payload.data.ids = parseIds(data.referenceIds);
+    payload.data.value = data.totalPrice;
+    payload.data.transId = data.transId;
+    break;
+  case 'identify':
+    payload.userId = data.userId;
+    break;
+  case 'custom':
+    payload.data.eventName = data.customEventName;
+    break;
 }
 
-function main () {
-  // Inject script and save global labels
-  if (eventName === 'boot') {
-      log('Injecting reelevant script');
-      // Config script
-      const datasourceId = data.datasourceId;
-      const companyId = data.companyId;
-      const queue = copyFromWindow('reel.queue');
-      setInWindow('reel', {
-        datasourceId: datasourceId,
-        companyId: companyId,
-        queue: queue || [],
-        globalLabels: transformLabels(data.globalLabels || [])
-      }, true);
-      injectScript('https://scripts-repo.reelevant.com/rlvt?company=' + companyId + '&datasource=' + datasourceId, onScriptLoaded, onScriptFailure);
-      return;
+// Add labels if present
+if (data.labels) {
+  payload.data = data.labels.reduce((acc, label) => {
+    acc[label.name] = label.value;
+    return acc;
+  }, payload.data);
+}
+
+// Send to Reelevant API using POST
+sendHttpRequest('https://collector.reelevant.com/collect/' + data.datasourceId + '/rlvt', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'User-Agent': getRequestHeader('User-Agent')
+  },
+  timeout: 2000
+ }, JSON.stringify(payload))
+.then((response) => {
+  if (response.statusCode >= 200 && response.statusCode < 300) {
+    data.gtmOnSuccess();
+  } else {
+    data.gtmOnFailure();
   }
-  log('Reelevant, triggering:', eventName);
-  
-  // Add queue only if reel doesn't exists yet
-  setInWindow('reel', {
-    queue: []
-  }, false);
-  
-  // Init config / utils for event handling
-  const globalLabels = copyFromWindow('reel.globalLabels') || {}; // retrieve labels
-  function pushEvent (name, payload) {
-    log('Push', name, payload);
-    if (name === 'identify') {
-      callInWindow('reel.queue.push', ['identify', payload]);
-      return;
-    }
-    callInWindow('reel.queue.push', [name, objectAssign(
-      payload, globalLabels, labels
-    )]);
-  }
-
-  // Handle event
-  switch (eventName) {
-    case 'page_view': {
-      pushEvent('page_view', {});
-      break;
-    }
-    case 'product_page': {
-      pushEvent('product_page', {
-        ids: data.productIds
-      });
-      break;
-    }
-    case 'product_hover': {
-      pushEvent('product_hover', {
-        ids: data.productIds
-      });
-      break;
-    }
-    case 'category_view': {
-      pushEvent('category_view', {
-        ids: data.categoryNames
-      });
-      break;
-    }
-    case 'brand_view': {
-      pushEvent('brand_view', {
-        ids: data.brandNames
-      });
-      break;
-    }
-    case 'add_cart': {
-      pushEvent('add_cart', {
-        ids: data.productIds
-      });
-      break;
-    }
-    case 'purchase': {
-      pushEvent('purchase', {
-        ids: data.productIds,
-        value: data.totalPrice,
-        transId: data.transId
-      });
-      break;
-    }
-    case 'purchase_references': {
-      pushEvent('purchase_references', {
-        ids: data.referenceIds,
-        transId: data.transId
-      });
-      break;
-    }
-    case 'identify': {
-      pushEvent('identify', data.userId);
-      break;
-    }
-    case 'custom': {
-      pushEvent(data.customEventName, {});
-      break;
-    }
-  }
-  data.gtmOnSuccess();
-}
-main();
+})
+.catch(() => data.gtmOnFailure());
 
 
-___WEB_PERMISSIONS___
+___SERVER_PERMISSIONS___
 
 [
   {
     "instance": {
       "key": {
-        "publicId": "access_globals",
+        "publicId": "read_request",
         "versionId": "1"
       },
       "param": [
         {
-          "key": "keys",
+          "key": "headerWhitelist",
           "value": {
             "type": 2,
             "listItem": [
@@ -734,158 +557,45 @@ ___WEB_PERMISSIONS___
                 "mapKey": [
                   {
                     "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
+                    "string": "headerName"
                   }
                 ],
                 "mapValue": [
                   {
                     "type": 1,
-                    "string": "reel.queue.push"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  {
-                    "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
-                  }
-                ],
-                "mapValue": [
-                  {
-                    "type": 1,
-                    "string": "reel"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  {
-                    "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
-                  }
-                ],
-                "mapValue": [
-                  {
-                    "type": 1,
-                    "string": "reel.globalLabels"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  {
-                    "type": 1,
-                    "string": "key"
-                  },
-                  {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
-                    "string": "execute"
-                  }
-                ],
-                "mapValue": [
-                  {
-                    "type": 1,
-                    "string": "reel.queue"
-                  },
-                  {
-                    "type": 8,
-                    "boolean": true
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
-                  },
-                  {
-                    "type": 8,
-                    "boolean": false
+                    "string": "User-Agent"
                   }
                 ]
               }
             ]
+          }
+        },
+        {
+          "key": "headersAllowed",
+          "value": {
+            "type": 8,
+            "boolean": true
+          }
+        },
+        {
+          "key": "requestAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
+          "key": "headerAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
+          "key": "queryParameterAccess",
+          "value": {
+            "type": 1,
+            "string": "any"
           }
         }
       ]
@@ -898,18 +608,29 @@ ___WEB_PERMISSIONS___
   {
     "instance": {
       "key": {
-        "publicId": "inject_script",
+        "publicId": "get_cookies",
         "versionId": "1"
       },
       "param": [
         {
-          "key": "urls",
+          "key": "cookieAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
+          "key": "cookieNames",
           "value": {
             "type": 2,
             "listItem": [
               {
                 "type": 1,
-                "string": "https://scripts-repo.reelevant.com/*"
+                "string": "rlvt_tmpId"
+              },
+              {
+                "type": 1,
+                "string": "rlvt_clientId"
               }
             ]
           }
@@ -936,6 +657,179 @@ ___WEB_PERMISSIONS___
           }
         }
       ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "read_event_data",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "eventDataAccess",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "set_cookies",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "allowedCookies",
+          "value": {
+            "type": 2,
+            "listItem": [
+              {
+                "type": 3,
+                "mapKey": [
+                  {
+                    "type": 1,
+                    "string": "name"
+                  },
+                  {
+                    "type": 1,
+                    "string": "domain"
+                  },
+                  {
+                    "type": 1,
+                    "string": "path"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "session"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "rlvt_tmpId"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  }
+                ]
+              },
+              {
+                "type": 3,
+                "mapKey": [
+                  {
+                    "type": 1,
+                    "string": "name"
+                  },
+                  {
+                    "type": 1,
+                    "string": "domain"
+                  },
+                  {
+                    "type": 1,
+                    "string": "path"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "session"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "rlvt_clientId"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "*"
+                  },
+                  {
+                    "type": 1,
+                    "string": "secure"
+                  },
+                  {
+                    "type": 1,
+                    "string": "any"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
+    "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "send_http",
+        "versionId": "1"
+      },
+      "param": [
+        {
+          "key": "allowedUrls",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
+          "key": "urls",
+          "value": {
+            "type": 2,
+            "listItem": [
+              {
+                "type": 1,
+                "string": "https://collector.reelevant.com/*"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
     },
     "isRequired": true
   }
